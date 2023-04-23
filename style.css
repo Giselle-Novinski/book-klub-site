@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 header {
     background-color: #7d63b6;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,7 +15,7 @@ header {
 }
 
 .cabecalho-imagem{
-    width: 20%;
+    width: 25%;
 }
 
 cabecalho-lista-item{
@@ -22,3 +24,42 @@ cabecalho-lista-item{
     font-size: 30px;
 }
 
+.Quem-Somos-imagem{
+    width: 25%;
+}
+
+.Livros{
+    background-image: linear-gradient(#7d63b6,#f3d1fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.livros-div-conteudo{
+    width: 35%;
+}
+
+.Quem-Somos-titulo{
+    padding: 24px 0;
+}
+
+.It{
+    width: 150px;
+}
+
+.it-div{
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.livro-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
